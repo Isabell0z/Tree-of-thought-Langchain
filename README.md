@@ -16,15 +16,16 @@ This project implements a **Tree of Thought (ToT)** reasoning agent for solving 
 - 📈 Thought pruning, scoring, and configurable search depth
 
 ---
-### 🛠️ Project Structure
-.
+## 🛠️ Project Structure
+```
 ├── README.txt
 ├── __pycache__
 ├── checker.py             # Thought evaluator
 ├── game24.csv             # Dataset
 ├── main.py                # Run
 ├── promptStrategy.py      # Prompt templates for thought generation
-├── test.py
 ├── thought.py
 ├── totChain.py
 └── totMemory.py
+```
+
